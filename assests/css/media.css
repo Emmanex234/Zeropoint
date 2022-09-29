@@ -1,0 +1,278 @@
+@media (max-width:768px) {
+    .svg{
+        display: none;
+    }
+    .svg .svg-off{
+        visibility: hidden;
+    }
+    .second-row ul{
+        display: none;
+        position: absolute;
+        height: 60vh;
+        z-index: 90;
+        width: 60%;
+        top: 30%;
+        left: 0;
+        text-align: center;
+        padding:3%;
+        background: rgba(0, 0, 0,0.4);
+
+    }
+    .second-row ul li{
+        padding: 4%;
+        color: white;
+        font-size: 25px;
+    }
+    .second-row a{
+        width: 50%;
+    }
+    .second-row input{
+        width: 37%;
+    }
+    #bar{
+        display:block ;
+    }
+    #imglogo{
+        height: 8vh;
+        width: 100%;
+    }
+    .hslide_txco1{
+        padding-top: 40%;
+    }
+    .hslide_txco1 p{
+        font-size: 25px;
+    }
+    .hslide_txco1 button{
+        padding: 2%;
+    }
+    .hslide_txco1{
+        font-size: 10px;
+    }
+    .tapimg{
+        width: 90%;
+    }
+    .img{
+        width: 90%;
+    }
+    .t1{
+        width: 30%;
+        font-size: 15px;
+        background: white;
+        text-align: center;
+        color: black;
+        border-radius: 25px;
+    }
+
+    .t2{
+        display: block;
+    }
+    .t2 p{
+        border: none;
+        padding-top: none;
+        border-radius: 25px 25px 0px 0px;
+        height: 20vh;
+        font-size: 20px;
+        text-align: left;
+        top: 5%;
+        
+    }
+    .down{
+        width: 80%;
+        text-align: center;
+    }
+    .write-flex{
+        font-size: 15px;
+        width: 60%;
+        font-weight: bold;
+    }
+    .flex-btn{
+        height: 9.8vh;
+        font-weight: bold;
+        padding: 4%;
+        background: rgba(255, 140, 0,0.9);
+        width: 30%;
+        font-size: 10px;
+        border: none;
+    }
+    .svg-flex{
+        display: block;
+        /* gap: 0.3%; */
+        padding-top: 5%;
+        width: 100%;
+    }
+    .svg-head p{
+        font-size: 15px;
+        font-family:sans-serif;
+        letter-spacing: 1%;
+    }
+    .svg-head h3{
+        font-size: 20px;
+        font-style: bold;
+    }
+    .t3{
+        height: max-content;
+    }
+    .p1{
+        border: none;
+        border-radius: 25px 25px 0px 0px;
+        padding: 0%;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        width: 100%;
+        font-size: 13px;
+        font-style: bold;   
+    }
+    .offer{
+        text-align: center;
+    }
+    .offer h3{
+       color:  rgba(255, 140, 0,0.9);
+    }
+    .offer h2{
+        font-style: italic;
+        font-size: 15px;
+    }
+    .p-bg{
+        height: 60vh;
+        
+        
+    }
+    #m1a{
+        display: block;
+        font-size: 18px;
+        height: 20vh;
+    }
+    .sec4img{
+        height: fit-content;
+    }
+    .p{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        /* font: 200; */
+    }
+    .f{
+        font-size: 15px;
+    }
+    .p-bg{
+        height: 50%;
+        font-size: 10px;
+    }
+    .tra{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows: repeat(2, minmax());
+        /* overflow-x: scroll; */
+    }
+    .trase{
+        width: 100%;
+        height: 100%;
+        gap: 1%; 
+        padding: 1%;
+    }
+    .sec2{
+        display: block;
+    }
+    .sec2 img{
+        width: 75%;
+        height: 10%;
+        margin-bottom: 10%;
+    }
+    .form{
+        background: rgba(255, 140, 0,0.9);
+    }
+    
+    footer{
+        display: block;
+        font-size: 10px;
+    }
+    .ful,.footj{
+        font-size: 15px;
+    }
+    .User{
+        display: block;
+        width: 80%;
+
+    }
+    .User-box{
+    
+        height: fit-content;
+        /* background: white; */
+        /* width: 100%; */
+        padding: 10%;
+        font-size: 18px;
+    }
+    .user-content{
+        height: fit-content;
+    }
+    .pri h1{
+        font-size: 20px;
+   }
+}
+
+
+
+@media  (max-width:425px) {
+    .sec4{
+        display: block;
+        padding: 2%;
+        height: 100%;
+        gap: 0%;
+        
+        
+    }
+    .sec4img svg{
+        display: none;
+    }
+    .sec4img{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .p-bg{
+        background-color: rgba(192, 192, 192,0.3);
+        padding: 2%;
+        height: 100%;
+        width: 97%;
+    }
+    .p-bg p{
+        font-size: 16px;
+    }
+    .pre{
+        display: none;
+    }
+    #m1a{
+        display: block;
+        font-size: 18px;
+        height: 20vh;
+    }
+    .mail{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows: repeat(2, minmax());
+        gap: 1%;
+        width:50%;
+        margin-top: 4%;
+    }
+    .in{
+        width: 100%;
+    }
+    .second-row ul{
+        top: 23%;
+    }
+    .User-box{
+    
+        /* height: 130vh; */
+        width: 100%;
+        font-size: 15px;
+    }
+    .user-content{
+        height: 50vh;
+    }
+    .down{
+    
+        height: 40vh;
+    }
+}
+
+
