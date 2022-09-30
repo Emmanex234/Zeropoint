@@ -44,6 +44,8 @@ ul{
 }
 #bar,#cancel{
     display: none;
+    transform: scale(1.7);
+    padding-top: 1%;
 }
 .second-row a{
     text-decoration: none;
