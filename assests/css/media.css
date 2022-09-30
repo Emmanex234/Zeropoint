@@ -31,10 +31,13 @@
     }
     #bar{
         display:block ;
+        width: 120%;
+        height: 120%;
     }
     #imglogo{
-        height: 8vh;
+        height: 5vh;
         width: 100%;
+        
     }
     .hslide_txco1{
         padding-top: 40%;
